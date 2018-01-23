@@ -1,15 +1,16 @@
 <?php
 /**
- * Telegram Notification Channel plugin for Craft CMS 3.x
+ * Telegram Notification Channel plugin for Craft CMS 3.x.
  *
  * A Telegram notification channel for the Craft Notifications plugin
  *
  * @link      https://rias.be
+ *
  * @copyright Copyright (c) 2018 Rias
  */
 
 /**
- * Telegram Notification Channel config.php
+ * Telegram Notification Channel config.php.
  *
  * This file exists only as a template for the Telegram Notification Channel settings.
  * It does nothing on its own.
@@ -24,7 +25,7 @@
 
 return [
 
-    /**
+    /*
      * This sets the Telegram Bot token which can be acquired by speaking with
      * the Botfather (https://core.telegram.org/bots#6-botfather)
     */

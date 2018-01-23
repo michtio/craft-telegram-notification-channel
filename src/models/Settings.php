@@ -1,22 +1,22 @@
 <?php
 /**
- * Telegram Notification Channel plugin for Craft CMS 3.x
+ * Telegram Notification Channel plugin for Craft CMS 3.x.
  *
  * A Telegram notification channel for the Craft Notifications plugin
  *
  * @link      https://rias.be
+ *
  * @copyright Copyright (c) 2018 Rias
  */
 
 namespace rias\telegramnotificationchannel\models;
 
-use rias\telegramnotificationchannel\TelegramNotificationChannel;
-
 use Craft;
 use craft\base\Model;
+use rias\telegramnotificationchannel\TelegramNotificationChannel;
 
 /**
- * TelegramNotificationChannel Settings Model
+ * TelegramNotificationChannel Settings Model.
  *
  * This is a model used to define the plugin's settings.
  *
@@ -26,7 +26,7 @@ use craft\base\Model;
  * https://craftcms.com/docs/plugins/models
  *
  * @author    Rias
- * @package   TelegramNotificationChannel
+ *
  * @since     1.0.0
  */
 class Settings extends Model
@@ -35,7 +35,7 @@ class Settings extends Model
     // =========================================================================
 
     /**
-     * Some field model attribute
+     * Some field model attribute.
      *
      * @var string
      */

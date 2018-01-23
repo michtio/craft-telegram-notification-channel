@@ -52,7 +52,7 @@ class Telegram
      *
      * @link https://core.telegram.org/bots/api#sendmessage
      *
-     * @param array    $params
+     * @param array $params
      *
      * @var int|string $params ['chat_id']
      * @var string     $params ['text']
@@ -62,8 +62,9 @@ class Telegram
      * @var int        $params ['reply_to_message_id']
      * @var string     $params ['reply_markup']
      *
-     * @return mixed
      * @throws CouldNotSendNotification
+     *
+     * @return mixed
      */
     public function sendMessage($params)
     {
