@@ -45,6 +45,7 @@ class TelegramMessage
     public function to($chatId)
     {
         $this->payload['chat_id'] = $chatId;
+
         return $this;
     }
 
@@ -58,6 +59,7 @@ class TelegramMessage
     public function content($content)
     {
         $this->payload['text'] = $content;
+
         return $this;
     }
 
@@ -74,6 +76,7 @@ class TelegramMessage
         $this->buttons[] = compact('text', 'url');
         $replyMarkup['inline_keyboard'] = array_chunk($this->buttons, 2);
         $this->payload['reply_markup'] = json_encode($replyMarkup);
+
         return $this;
     }
 
@@ -87,6 +90,7 @@ class TelegramMessage
     public function options(array $options)
     {
         $this->payload = array_merge($this->payload, $options);
+
         return $this;
     }
 
