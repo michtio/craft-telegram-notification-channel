@@ -9,6 +9,10 @@
 
 A Telegram notification channel for the [Craft Notifications](https://github.com/rias500/craft-notifications) plugin
 
+## Requirements
+
+- Make sure you have [Craft Notifications](https://github.com/rias500/craft-notifications) installed
+
 ## Installation
 
 To install the plugin, follow these instructions.
