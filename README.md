@@ -2,7 +2,7 @@
 
 [![Latest Version](https://img.shields.io/github/release/rias500/craft-telegram-notification-channel.svg?style=flat-square)](https://github.com/rias500/craft-telegram-notification-channel/releases)
 [![Quality Score](https://img.shields.io/scrutinizer/g/rias500/craft-telegram-notification-channel.svg?style=flat-square)](https://scrutinizer-ci.com/g/rias500/craft-telegram-notification-channel)
-[![StyleCI](https://styleci.io/repos/117422620/shield)](https://styleci.io/repos/117422620)
+[![StyleCI](https://styleci.io/repos/118666814/shield)](https://styleci.io/repos/118666814)
 [![Total Downloads](https://img.shields.io/packagist/dt/rias/craft-telegram-notification-channel.svg?style=flat-square)](https://packagist.org/packages/rias/craft-telegram-notification-channel)
 
 # Telegram Notification Channel plugin for Craft Notifications
