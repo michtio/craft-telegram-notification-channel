@@ -1,24 +1,22 @@
 <?php
 /**
- * Telegram Notification Channel plugin for Craft CMS 3.x
+ * Telegram Notification Channel plugin for Craft CMS 3.x.
  *
  * A Telegram notification channel for the Craft Notifications plugin
  *
  * @link      https://rias.be
+ *
  * @copyright Copyright (c) 2018 Rias
  */
 
 namespace rias\telegramnotificationchannel;
 
-use rias\notifications\events\RegisterChannelsEvent;
-use rias\notifications\services\NotificationsService;
-use rias\telegramnotificationchannel\models\Settings;
-
 use Craft;
 use craft\base\Plugin;
 use craft\services\Plugins;
-use craft\events\PluginEvent;
-
+use rias\notifications\events\RegisterChannelsEvent;
+use rias\notifications\services\NotificationsService;
+use rias\telegramnotificationchannel\models\Settings;
 use rias\telegramnotificationchannel\models\Telegram;
 use rias\telegramnotificationchannel\models\TelegramChannel;
 use yii\base\Event;
@@ -34,10 +32,11 @@ use yii\base\Event;
  * https://craftcms.com/docs/plugins/introduction
  *
  * @author    Rias
- * @package   TelegramNotificationChannel
+ *
  * @since     1.0.0
  *
  * @property  Settings $settings
+ *
  * @method    Settings getSettings()
  */
 class TelegramNotificationChannel extends Plugin
@@ -47,7 +46,7 @@ class TelegramNotificationChannel extends Plugin
 
     /**
      * Static property that is an instance of this plugin class so that it can be accessed via
-     * TelegramNotificationChannel::$plugin
+     * TelegramNotificationChannel::$plugin.
      *
      * @var TelegramNotificationChannel
      */
@@ -58,14 +57,13 @@ class TelegramNotificationChannel extends Plugin
 
     /**
      * Set our $plugin static property to this class so that it can be accessed via
-     * TelegramNotificationChannel::$plugin
+     * TelegramNotificationChannel::$plugin.
      *
      * Called after the plugin class is instantiated; do any one-time initialization
      * here such as hooks and events.
      *
      * If you have a '/vendor/autoload.php' file, it will be loaded for you automatically;
      * you do not need to load it in your init() method.
-     *
      */
     public function init()
     {
@@ -100,16 +98,17 @@ class TelegramNotificationChannel extends Plugin
      * Returns the rendered settings HTML, which will be inserted into the content
      * block on the settings page.
      *
-     * @return string The rendered settings HTML
      * @throws \Twig_Error_Loader
      * @throws \yii\base\Exception
+     *
+     * @return string The rendered settings HTML
      */
     protected function settingsHtml(): string
     {
         return Craft::$app->view->renderTemplate(
             'telegram-notification-channel/settings',
             [
-                'settings' => $this->getSettings()
+                'settings' => $this->getSettings(),
             ]
         );
     }

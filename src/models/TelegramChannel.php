@@ -1,6 +1,5 @@
 <?php
 
-
 namespace rias\telegramnotificationchannel\models;
 
 use rias\notifications\models\Notification;
@@ -12,6 +11,7 @@ class TelegramChannel
      * @var Telegram
      */
     protected $telegram;
+
     /**
      * Channel constructor.
      *

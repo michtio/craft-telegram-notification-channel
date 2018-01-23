@@ -20,8 +20,10 @@ class CouldNotSendNotification extends \Exception
         if ($result = json_decode($exception->getResponse()->getBody())) {
             $description = $result->description ?: $description;
         }
+
         return new static("Telegram responded with an error `{$statusCode} - {$description}`");
     }
+
     /**
      * Thrown when there's no bot token provided.
      *
@@ -33,6 +35,7 @@ class CouldNotSendNotification extends \Exception
     {
         return new static($message);
     }
+
     /**
      * Thrown when we're unable to communicate with Telegram.
      *
@@ -42,6 +45,7 @@ class CouldNotSendNotification extends \Exception
     {
         return new static('The communication with Telegram failed.');
     }
+
     /**
      * Thrown when there is no chat id provided.
      *
