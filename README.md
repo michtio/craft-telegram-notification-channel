@@ -7,7 +7,7 @@
 
 # Telegram Notification Channel plugin for Craft Notifications
 
-A Telegram notification channel for the [Craft Notifications](https://github.com/rias500/craft-telegram-notification-channel) plugin
+A Telegram notification channel for the [Craft Notifications](https://github.com/rias500/craft-notifications) plugin
 
 ## Installation
 
