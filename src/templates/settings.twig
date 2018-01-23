@@ -1,0 +1,24 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Telegram Notification Channel plugin for Craft CMS 3.x
+ *
+ * Telegram Notification Channel Settings.twig
+ *
+ * @author    Rias
+ * @copyright Copyright (c) 2018 Rias
+ * @link      https://rias.be
+ * @package   TelegramNotificationChannel
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label: 'Telegram Bot Token'|t('telegram-notification-channel'),
+    instructions: 'Enter your Telegram Bot Token, you can create this by talking to [@Botfather](https://core.telegram.org/bots#6-botfather)'|t('telegram-notification-channel'),
+    id: 'token',
+    name: 'token',
+    value: settings['token']})
+}}

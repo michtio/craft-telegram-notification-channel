@@ -1,0 +1,18 @@
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+	<desc>Created with Sketch.</desc>
+	<defs>
+		<linearGradient x1="61.2346759%" y1="43.69%" x2="74.7064382%" y2="80.24%" id="linearGradient-1">
+			<stop stop-color="#EFF7FC" offset="0%"></stop>
+			<stop stop-color="#FFFFFF" offset="100%"></stop>
+		</linearGradient>
+	</defs>
+	<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+		<g id="Artboard" transform="translate(-159.000000, -144.000000)">
+			<g id="craft-telegram-notification-channel" transform="translate(159.000000, 144.000000)">
+				<circle id="background" fill="#4DC0B5" cx="47" cy="47" r="47"></circle>
+				<path d="M36.3716299,54.5296122 L53.789611,67.3982444 C55.7772274,68.4949361 57.2117617,67.9271229 57.7068559,65.5528964 L64.7968675,32.1421399 C65.5227608,29.2318675 63.6874977,27.9119044 61.7860347,28.7751677 L20.1536021,44.8284523 C17.3117987,45.9682927 17.3283666,47.5537396 19.6356008,48.2601835 L30.3194217,51.5947761 L55.0536032,35.9902675 C56.2212491,35.2822028 57.2929087,35.6628736 56.4133295,36.4435096" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+			</g>
+		</g>
+	</g>
+</svg>

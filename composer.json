@@ -1,0 +1,42 @@
+{
+    "name": "rias/craft-telegram-notification-channel",
+    "description": "A Telegram notification channel for the Craft Notifications plugin",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "telegram notification channel"
+    ],
+    "support": {
+        "docs": "https://github.com/Rias500/craft-telegram-notification-channel/blob/master/README.md",
+        "issues": "https://github.com/Rias500/craft-telegram-notification-channel/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rias",
+            "homepage": "https://rias.be"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "rias/craft-notifications": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "rias\\telegramnotificationchannel\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Telegram Notification Channel",
+        "handle": "telegram-notification-channel",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/Rias500/craft-telegram-notification-channel/master/CHANGELOG.md",
+        "class": "rias\\telegramnotificationchannel\\TelegramNotificationChannel"
+    }
+}
