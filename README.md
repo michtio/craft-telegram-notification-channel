@@ -76,3 +76,8 @@ Here's a screenshot preview of the above notification on Telegram Messenger:
 - [Laravel Notifications Channel - Telegram](https://github.com/laravel-notification-channels/telegram)
 
 Brought to you by [Rias](https://rias.be)
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/Rias500/craft-telegram-notification-channel/badge.svg?style=beer-square)](https://beerpay.io/Rias500/craft-telegram-notification-channel)  [![Beerpay](https://beerpay.io/Rias500/craft-telegram-notification-channel/make-wish.svg?style=flat-square)](https://beerpay.io/Rias500/craft-telegram-notification-channel?focus=wish)
