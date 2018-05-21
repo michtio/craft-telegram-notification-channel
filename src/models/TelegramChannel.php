@@ -34,6 +34,11 @@ class TelegramChannel
     {
         $message = $notification->toTelegram();
 
+        // If we don't get any message back, return.
+        if (is_null($message)) {
+            return;
+        }
+
         if (is_string($message)) {
             $message = TelegramMessage::create($message);
         }
