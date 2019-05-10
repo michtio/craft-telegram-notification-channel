@@ -1633,12 +1633,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Rias500/craft-notifications.git",
+                "url": "https://github.com/riasvdv/craft-notifications.git",
                 "reference": "194ec240d982b53045d33afb4909bb40533d3d39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Rias500/craft-notifications/zipball/194ec240d982b53045d33afb4909bb40533d3d39",
+                "url": "https://api.github.com/repos/riasvdv/craft-notifications/zipball/194ec240d982b53045d33afb4909bb40533d3d39",
                 "reference": "194ec240d982b53045d33afb4909bb40533d3d39",
                 "shasum": ""
             },
@@ -1656,7 +1656,7 @@
                 "schemaVersion": "1.0.0",
                 "hasCpSettings": false,
                 "hasCpSection": false,
-                "changelogUrl": "https://raw.githubusercontent.com/Rias500/craft-notifications/master/CHANGELOG.md",
+                "changelogUrl": "https://raw.githubusercontent.com/riasvdv/craft-notifications/master/CHANGELOG.md",
                 "components": {
                     "notificationsService": "rias\\notifications\\services\\NotificationsService"
                 },

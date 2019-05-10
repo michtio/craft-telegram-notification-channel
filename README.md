@@ -1,13 +1,13 @@
 ![icon](./src/icon.svg)
 
-[![Latest Version](https://img.shields.io/github/release/rias500/craft-telegram-notification-channel.svg?style=flat-square)](https://github.com/rias500/craft-telegram-notification-channel/releases)
-[![Quality Score](https://img.shields.io/scrutinizer/g/rias500/craft-telegram-notification-channel.svg?style=flat-square)](https://scrutinizer-ci.com/g/rias500/craft-telegram-notification-channel)
+[![Latest Version](https://img.shields.io/github/release/riasvdv/craft-telegram-notification-channel.svg?style=flat-square)](https://github.com/riasvdv/craft-telegram-notification-channel/releases)
+[![Quality Score](https://img.shields.io/scrutinizer/g/riasvdv/craft-telegram-notification-channel.svg?style=flat-square)](https://scrutinizer-ci.com/g/riasvdv/craft-telegram-notification-channel)
 [![StyleCI](https://styleci.io/repos/118666814/shield)](https://styleci.io/repos/118666814)
 [![Total Downloads](https://img.shields.io/packagist/dt/rias/craft-telegram-notification-channel.svg?style=flat-square)](https://packagist.org/packages/rias/craft-telegram-notification-channel)
 
 # Telegram Notification Channel plugin for Craft Notifications
 
-A Telegram notification channel for the [Craft Notifications](https://github.com/rias500/craft-notifications) plugin
+A Telegram notification channel for the [Craft Notifications](https://github.com/riasvdv/craft-notifications) plugin
 
 ## Support Open Source. Buy beer.
 
@@ -17,7 +17,7 @@ This plugin is licensed under a MIT license, which means that it's completely fr
 
 ## Requirements
 
-- Make sure you have [Craft Notifications](https://github.com/rias500/craft-notifications) installed
+- Make sure you have [Craft Notifications](https://github.com/riasvdv/craft-notifications) installed
 
 ## Installation
 

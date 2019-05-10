@@ -11,8 +11,8 @@
         "telegram notification channel"
     ],
     "support": {
-        "docs": "https://github.com/Rias500/craft-telegram-notification-channel/blob/master/README.md",
-        "issues": "https://github.com/Rias500/craft-telegram-notification-channel/issues"
+        "docs": "https://github.com/riasvdv/craft-telegram-notification-channel/blob/master/README.md",
+        "issues": "https://github.com/riasvdv/craft-telegram-notification-channel/issues"
     },
     "license": "MIT",
     "authors": [
@@ -36,7 +36,7 @@
         "schemaVersion": "1.0.0",
         "hasCpSettings": true,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/Rias500/craft-telegram-notification-channel/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/riasvdv/craft-telegram-notification-channel/master/CHANGELOG.md",
         "class": "rias\\telegramnotificationchannel\\TelegramNotificationChannel"
     }
 }
